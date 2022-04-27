@@ -1,0 +1,623 @@
+/* fonts */
+
+@font-face {
+  font-family:  RustlerBarter;
+  src: url("assets/fonts/RustlerBarter");
+}
+
+@font-face {
+  font-family:  Caroni-Regular;
+  src: url("assets/fonts/Caroni-Regular");
+}
+
+@font-face {
+  font-family:  Caroni-Regular;
+  src: url("assets/fonts/Abraham");
+}
+
+@font-face {
+  font-family:  Px-Grotesk-Regular;
+  src: url("assets/fonts/Px-Grotesk-Regular");
+}
+
+/* body */
+
+
+body {
+	color: #2c0452;
+	font-family: "Monaco";
+}
+
+/* horizontal scroll */
+
+.outer-wrapper {
+	display: flex;
+	flex-direction: row;
+	width: 450vw;
+	height: 100vh;
+}
+
+/* title page */
+
+.intro {
+	display:  flex;
+	flex-direction: column;
+	width: 90vw;
+	background: #b252a1;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 50px;
+}
+
+.title1 {
+	font-size: 200px;
+	/*font-family: 'RustlerBarter';*/
+	/*font-family: Helvetica;*/
+	font-family: 'Monaco';
+	font-weight: 50;
+	font-style: normal;
+	letter-spacing: 4px;
+}
+
+.title2 {
+	font-size: 60px;
+/*	font-family: 'RustlerBarter';*/
+font-family: 'Monaco', serif;
+}
+
+.title3 {
+font-size: 60px;
+/*	font-family: 'RustlerBarter';*/
+font-family: 'Helvetica', serif;
+color: #dcd5d5;
+}
+
+/* figure 1 */
+
+.figure-1 {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	background: #b252a1;
+	justify-content: center;
+	align-items: center;
+}
+
+.figure-1-title-wrapper {
+	display: flex;
+	justify-content: center;
+	font-family: 'Monaco';
+	letter-spacing: 3px;
+}
+
+.figure-1-title {
+	font-size: 60px;
+}
+
+.row1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100vw;
+}
+
+
+.bathroom {
+	width: 25vw;
+	height: 30vh;
+	background-color: transparent;
+	margin: 5px;
+	border-style: solid;
+	border-color: #2c0452;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 2;
+}
+
+.bathroom-title {
+	padding-top: 5px;
+	font-size: 25px;
+	font-family: 'Helvetica', serif;
+	color: #dcd5d5
+}
+
+.bathroom-pic {
+	height: 20vh;
+}
+
+
+.bathroom-audio {
+	z-index: 3;
+}
+
+
+.bedroom {
+	width: 30vw;
+	height: 30vh;
+	margin: 5px;
+	border-style: groove;
+	border-color: #2c0452;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Helvetica', serif;
+}
+
+.bedroom-title {
+	font-size: 25px;
+	padding-top: 5px;
+	color: #dcd5d5;
+}
+
+.bedroom-pic {
+	height: 20vh;
+}
+
+
+.bedroom-audio {
+	
+}
+
+.kitchen-living-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.row2{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.laundry-wrapper {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+}
+
+
+.laundry {
+	width: 40vw;
+	height: 24vh;
+	margin: 5px;
+	border-style: groove;
+	border-color: #2c0452;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.laundry-title {
+	font-size: 25px;
+	padding-top: 5px;
+	font-family: 'Helvetica', serif;
+	color: #dcd5d5;
+}
+
+.laundry-pic {
+	height: 14vh;
+}
+
+
+.laundry-audio {
+
+}
+
+.kitchen-living-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.kitchen {
+	width: 36.5vw;
+	height: 24vh;
+	margin: 5px;
+	border-style: groove;
+	border-color: #2c0452;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.kitchen-title {
+	font-size: 25px;
+	padding-top: 5px;
+	font-family: 'Helvetica', serif;
+	color: #dcd5d5;
+}
+
+.kitchen-pic {
+	height: 14vh;
+}
+
+
+.kitchen-audio {
+
+}
+
+.living {
+	width: 36.5vw;
+	height: 30vh;
+	margin: 5px;
+	border-style: groove;
+	border-color: #2c0452;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.living-title {
+	font-size: 25px;
+	padding-top: 5px;
+	font-family: 'Helvetica', serif;
+	color: #dcd5d5;
+}
+
+.living-pic {
+	height: 20vh;
+}
+
+
+.living-audio {
+
+}
+
+/* figure 2 */
+
+.figure-2 {
+	width: 150vw;
+	background: #b252a1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	border-left: solid;
+	border-right: solid;
+}
+
+.figure-2-title-wrapper {
+	display: flex;
+	justify-content: center;
+	font-family: 'Monaco';
+	letter-spacing: 3px;
+}
+
+.figure-2-title {
+	font-size: 60px;
+}
+
+
+.street0 {
+	position: absolute;
+	top: 30vh;
+	right: -240vh;
+	height: 27vh;
+/*	background: black;*/
+	border-right: solid;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	font-size: 25px;
+}
+
+.street1 {
+	position: absolute;
+	top: 30vh;
+	right: -300vh;
+	height: 65vh;
+/*	background: black;*/
+	border-right: solid;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	font-size: 25px;
+}
+
+.street2 {
+	position: absolute;
+	top: 20vh;
+	height: 30vh;
+/*	background: black;*/
+	border-right: solid;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	font-size: 25px;
+}
+
+
+.street3 {
+	position: absolute;
+	top: 30vh;
+	right: -360vh;
+	height: 65vh;
+/*	background: black;*/
+	border-right: solid;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	font-size: 25px;
+}
+
+.street4 {
+	position: absolute;
+	top: 27vh;
+	right: -410vh;
+	height: 30vh;
+/*	background: black;*/
+	border-right: solid;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	font-size: 25px;
+}
+
+
+.above-street-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 120vw;
+}
+
+.nanotech-above {
+	width: 12vw;
+	height: 22vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.nanotech-title {
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Helvetica', serif;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	color: #dcd5d5;
+}
+
+.nanotech-pic {
+	height: 25vh;
+}
+
+.nanotech-audio {
+}
+
+.wharton-above {
+	width: 12vw;
+	height: 22vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wharton-title {
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Helvetica', serif;
+	color: #dcd5d5;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+}
+
+.wharton-pic {
+	height: 25vh;
+}
+
+.wharton-audio {
+}
+
+.street-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 150vw;
+}
+
+
+.my-address {
+	font-size: 40px;
+	padding-right: 10px;
+}
+
+.road {
+	width: 100vw;
+	height: 3vh;
+	border-bottom: solid;
+	border-width: 3px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	}
+
+.Tangen {
+	font-size: 40px;
+	padding-right: 10px;
+}
+
+.below-street-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 120vw;
+}
+
+.bridge-crossing-below {
+	width: 12vw;
+	height: 22vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bridge-crossing-title{
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Helvetica', serif;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	color: #dcd5d5;
+}
+
+.bridge-pic {
+	width: 20vw;
+}
+
+.bridge-audio {
+}
+
+.bookstore-below {
+	width: 12vw;
+	height: 22vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bookstore-title{
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Helvetica', serif;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	color: #dcd5d5;
+}
+
+.bookstore-pic {
+	width: 20vw;
+}
+
+.bookstore-audio {
+}
+
+.bus-stop-below {
+	width: 12vw;
+	height: 22vh;
+	background-color: dimgrey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bookstore-title{
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Helvetica', serif;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	color: #dcd5d5;
+}
+
+.bookstore-pic {
+	width: 20vw;
+}
+
+.bookstore-audio {
+}
+
+/* figure 3 */
+
+.figure-3{
+	width: 100vw;
+	background-color: #b252a1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.figure-3-title-wrapper {
+	display: flex;
+	justify-content: center;
+	letter-spacing: 3px;
+	flex-direction: column;
+}
+
+.figure-3-title {
+	font-family: 'Monaco';
+	font-size: 60px;
+}
+
+.figure-3-subtitle {
+	font-size: 60px;
+	font-family: 'Helvetica', serif;
+}
+
+/* audio controls */
+
+audio::-webkit-media-controls-panel {
+  background-color: #dcd5d5;
+}
+
+audio::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #66a1d2;
+  border-radius: 100%;
+ }
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #FFFFBF;
+  border-radius: 100%;
+}
+
+audio::-webkit-media-controls-current-time-display {
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+}
+
+audio::-webkit-media-controls-timeline {
+  display: none;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  display: none;
+}
+
+audio::-webkit-media-controls-return-to-realtime-button {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
