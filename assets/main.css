@@ -1,0 +1,485 @@
+
+@font-face {
+  font-family:  QuickenDemo;
+  src: url("../fonts/QuickenDemo");
+}
+
+
+@font-face {
+    font-family: 'Franchise';
+    src: url('../Franchise-Regular.woff2') format('woff2'),
+        url('../Franchise-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Montserrat-Regular.woff2') format('woff2'),
+        url('../Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*@font-face {
+  font-family:  fineCollege;
+  src: url("../fonts/fineCollege");
+}*/
+
+/*@font-face {
+  font-family:  Rebeca;
+  src: url("../fonts/Rebeca");
+}*/
+
+/*@font-face {
+  font-family:  RockheadNow;
+  src: url("../fonts/RockheadNow");
+}*/
+
+@font-face {
+  font-family:  Montserrat-Regular;
+  src: url("../fonts/Montserrat-Regular");
+}
+
+/*@font-face {
+  font-family:  FranchiseFilled;
+  src: url("../fonts/FranchiseFilled");
+}*/
+
+
+body {
+/* background-color: #647e6b;*/
+}
+
+a:link {
+  text-decoration: none;
+  color: #487c8d
+}
+.wrapper1 {
+  display: flex;
+  background-color: #487c8d;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.novelty_title {
+  font-family: 'Franchise';
+  font-size: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #dc6382;
+}
+
+.socks_title {
+  font-family: 'QuickenDemo';
+  font-size: 150px;
+  transform: rotate(-15deg);
+  margin-bottom: -30px;
+  color: #dc6382;
+}
+
+.class_clown_title {
+  font-family: 'Franchise';
+  margin-left: 275px;
+  font-size: 40px;
+  color: #f1e8d9;
+}
+
+.wrapper2 {
+  display: flex;
+  background-color: yellow;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: #487c8d;
+  padding: 10px;
+}
+
+/*.wrapper3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f1e8d9;
+  padding: 15px;
+  gap:  5px;
+  font-family: 'Montserrat-Regular';
+  border-style: double;
+  border-width: 5px;
+  border-collapse: separate;
+  border-spacing: 20px;
+}*/
+
+.socks_row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #f1e8d9;
+  align-items: center;
+  gap:  5px;
+  padding: 20px;
+  font-family: 'Montserrat-Regular';
+  color: #487c8d;
+}
+
+.names1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #f1e8d9;
+  justify-content: flex-start;
+  margin-right: 20px;
+  height: 350px;
+  font-size: 25px;
+}
+
+
+.sock1 {
+  width: 250px;
+}
+
+.sock2 {
+  width: 250px;
+}
+
+.sock3 {
+  width: 250px;
+}
+
+.sock4 {
+  width: 250px;
+}
+
+.socks_row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #f1e8d9;
+  align-items: center;
+  gap:  5px;
+  padding: 20px;
+  font-family: 'Montserrat-Regular';
+}
+
+.names2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #f1e8d9;
+  justify-content: flex-start;
+  margin-right: 20px;
+  height: 350px;
+  font-size: 25px;
+}
+
+.sock5 {
+  width: 250px;
+}
+
+.sock6 {
+  width: 250px;
+}
+
+.sock7 {
+  width: 250px;
+}
+
+.sock8 {
+  width: 250px;
+}
+
+.socks_row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #f1e8d9;
+  align-items: center;
+  gap:  5px;
+  padding: 20px;
+  font-family: 'Montserrat-Regular';
+}
+
+.names3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #f1e8d9;
+  justify-content: flex-start;
+  margin-right: 20px;
+  height: 350px;
+  font-size: 25px;
+}
+
+.sock9 {
+  width: 250px;
+}
+
+.sock10 {
+  width: 250px;
+}
+
+.sock11 {
+  width: 250px;
+}
+
+.sock12 {
+  width: 250px;
+}
+
+.socks_row4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #f1e8d9;
+  align-items: center;
+  gap:  5px;
+  padding: 20px;
+  font-family: 'Montserrat-Regular';
+}
+
+.names4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-right: 20px;
+  height: 350px;
+  font-size: 25px;
+}
+
+.sock_13_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1015px;
+}
+
+.sock13 {
+  width: 250px;
+}
+
+.sock_animation {
+  animation:  spinType 0.5s ease-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: 8ms ease-out;
+}
+
+/* individual fan pages*/
+
+.wrapper_fanpages {
+  display: flex;
+  background-color: #487c8d;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sock_solo {
+ height: 100vh;
+}
+
+/*  SOCK 1 - BUTTERFLY */
+
+.sock_title_solo1_1 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+  color: #dc6382;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+
+.sock_title_solo2_1 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+  transform: rotate(30deg);
+/*  margin-bottom: -30px;*/
+  color: #dc6382;
+  position: absolute;
+  top: 620px;
+  left: 70px;
+}
+
+.sock_title_caption_1 {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #f1e8d9;
+}
+
+/*  SOCK 2 - OUTERSPACE */
+
+.sock_title_solo1_2 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+  transform: rotate(-90deg);
+  color: #f1e8d9;
+  position: absolute;
+  top: 230px;
+  left: -180px;
+}
+
+.sock_title_solo2_2 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+/*  transform: rotate(60deg);*/
+/*  margin-bottom: -30px;*/
+  color: #f1e8d9;
+  position: absolute;
+  top: 670px;
+  left: 100px;
+}
+
+.sock_title_caption_2 {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #f1e8d9;
+}
+
+
+/*  SOCK 3 - IKEA */
+
+.sock_title_solo1_3 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+/*  transform: rotate(30deg);*/
+  color: #f1e8d9;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.sock_title_solo2_3 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+/*  margin-bottom: -30px;*/
+  color: #f1e8d9;
+  position: absolute;
+  top: 190px;
+  left: 270px;
+}
+
+.sock_title_caption_3 {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #f1e8d9;
+}
+
+/*  SOCK 4 - Pineapple Ducky */
+
+.sock_title_solo1_4 {
+  font-family: 'Franchise';
+  font-size: 150px;
+ /* display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+/*  transform: rotate(30deg);*/
+  color:  #dc6382;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.sock_title_solo2_4 {
+  font-family: 'QuickenDemo';
+  font-size: 100px;
+  transform: rotate(-45deg);
+/*  margin-bottom: -30px;*/
+  color:  #dc6382;
+  position: absolute;
+  top: 680px;
+  left: 350px;
+}
+
+.sock_title_caption_4 {
+  height: 80vh;
+  padding: 80px;
+  font-family:Montserrat-Regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  gap: 60px;
+  color: #aa96bf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
